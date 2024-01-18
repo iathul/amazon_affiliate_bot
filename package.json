@@ -1,0 +1,20 @@
+{
+  "name": "amazon_affiliate_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to generate affiliate link for a given amazon product",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Athul Joy",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-paapi": "^1.0.7",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
